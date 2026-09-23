@@ -36,6 +36,12 @@ Search for `[SALON NAME]`, `[PLAZA NAME]`, and `[SECTOR]` to replace the obvious
 
 The appointment form is intentionally UI-only. For a live client, connect it to WhatsApp, email, a booking service, or a small API endpoint. No authentication, database, or booking backend is included.
 
+## Tune or disable animations
+
+Animation timing is centralized in `src/components/animations/config.ts`. The `EFFECTS` object lets you disable signature effects such as the custom cursor, magnetic buttons, pinned horizontal gallery, marquee, counters, theme shift, or draggable testimonial deck for a calmer client demo.
+
+All motion respects the visitor's reduced-motion preference. Heavy desktop effects automatically fall back to standard scrolling or touch-friendly horizontal swiping on mobile and lower-end devices.
+
 ## Deploy to Vercel
 
 Install the Vercel CLI once, then deploy from this folder:

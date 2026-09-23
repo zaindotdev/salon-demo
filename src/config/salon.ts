@@ -46,6 +46,16 @@ export const salon = {
     availability: "Appointments available this week",
   },
 
+  // Slow-looping trust indicators displayed below the hero
+  marquee: [
+    "12,000+ happy clients",
+    "Award-winning stylists",
+    "Open 7 days",
+    "Book in seconds",
+    "Premium products",
+    "Personal consultations",
+  ],
+
   // Services, descriptions, icon keys, and placeholder PKR prices
   servicesSection: {
     eyebrow: "The menu",
